@@ -1,2 +1,2 @@
 # portfolio-backend
-Strapi backend for portfolio website
+Strapi backend application for portfolio website
