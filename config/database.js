@@ -12,7 +12,7 @@ module.exports = ({ env }) => {
         database: database ?? 'portfolio',
         user: user ?? 'portfolio_admin',
         password: password ?? 'password',
-        ssl: { rejectUnauthorized: false }
+        ssl: host === 'localhost' ? false : true
       }
     }
   }

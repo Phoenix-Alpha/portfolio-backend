@@ -32,12 +32,26 @@
       "required": true
     },
     "avatar": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "country": {
+      "type": "string",
       "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": false
+    },
+    "address": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
     }
   }
 }
