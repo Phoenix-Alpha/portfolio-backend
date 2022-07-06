@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi backend application for portfolio website",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.0.7",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/provider-upload-cloudinary": "^4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "pg": "8.6.0"
+  },
+  "author": {
+    "name": "betafoenix"
+  },
+  "strapi": {
+    "uuid": "1a39e324-2c1a-4197-822f-750325102460"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
