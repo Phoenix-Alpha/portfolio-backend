@@ -55,6 +55,18 @@
     },
     "calendly": {
       "type": "text"
+    },
+    "linkedin": {
+      "type": "text"
+    },
+    "google": {
+      "type": "text"
+    },
+    "stackoverflow": {
+      "type": "text"
+    },
+    "github": {
+      "type": "text"
     }
   }
 }
