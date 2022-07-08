@@ -67,6 +67,14 @@
     },
     "github": {
       "type": "text"
+    },
+    "resume": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
     }
   }
 }
