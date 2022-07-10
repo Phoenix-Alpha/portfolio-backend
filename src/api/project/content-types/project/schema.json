@@ -16,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "description": {
+    "content": {
       "type": "richtext",
       "required": true
     },
@@ -36,6 +36,16 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "projects"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "minLength": 50
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }
